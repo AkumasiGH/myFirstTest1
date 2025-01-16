@@ -14,6 +14,6 @@ public class DeployTestApplication {
 	}
 
 
-	@GetMapping("/")
+	@GetMapping("/home")
 	public String home() { return "This is a hosted site by Michael Akumasi!";}
 }
