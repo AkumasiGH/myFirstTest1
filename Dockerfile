@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the JAR file from the correct directory
-COPY target/*.jar app.jar
+COPY out/*.jar app.jar
 
 # Run the application
 CMD ["java", "-jar", "app.jar"]
